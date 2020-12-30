@@ -39,4 +39,25 @@ $('.all_menu_item').click(function () {
     }
   });
 
+  const navbar = document.querySelector(".header");
+const navbarHeight = navbar.getBoundingClientRect().height;
+
+document.addEventListener("scroll", () => {
+  if (window.scrollY > navbarHeight) {
+    navbar.classList.add("header_color");
+  } else {
+    navbar.classList.remove("header_color");
+  }
+});
+
+const mb_navbar = document.querySelector(".mb_header");
+const mb_navbarHeight = mb_navbar.getBoundingClientRect().height;
+
+document.addEventListener("scroll", () => {
+  if (window.scrollY > mb_navbarHeight) {
+    mb_navbar.classList.add("mb_header_color");
+  } else {
+    mb_navbar.classList.remove("mb_header_color");
+  }
+});
 });

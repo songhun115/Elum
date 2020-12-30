@@ -3,6 +3,7 @@
   background-color: transparent;
   position: fixed;
   z-index: 99;
+  transition: 0.3s;
 }
 .mb_header {
   width: 100vw;
@@ -54,6 +55,7 @@
 }
 .mb_header {
   display: none;
+  transition: 0.3s;
 }
 .mb_header_box {
   display: flex;
@@ -141,4 +143,12 @@
   border-radius: 50%;
   width: 70px;
   height: 70px;
+}
+.header.header_color {
+  background-color: #f0f0f0;
+  transition: 0.3s;
+}
+.mb_header.mb_header_color {
+  background-color: #f0f0f0;
+  transition: 0.3s;
 }
