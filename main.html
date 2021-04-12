@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="https://swiperjs.com/package/swiper-bundle.min.css">
-    <script src="https://swiperjs.com/package/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     
@@ -92,7 +92,9 @@
                 </li>
             </ul>
             <div class="logo_box menu_item">
+                <a href="main.html">
                 <img src="imgs/logo.png" alt="">
+            </a>
             </div>
             <ul class="right_menu menu_item">
                 <li class="right_item">로그인</li>
@@ -230,11 +232,16 @@
 
     <div class="swiper-container">
         <div class="swiper-wrapper">
-          <div class="swiper-slide" style="background-image:url(imgs/slide_img1.jpg)"></div>
-          <div class="swiper-slide" style="background-image:url(imgs/slide_img2.jpg)"></div>
-          <div class="swiper-slide" style="background-image:url(imgs/slide_img3.jpg)"></div>
-          <div class="swiper-slide" style="background-image:url(imgs/slide_img4.jpg)"></div>
-          <div class="swiper-slide" style="background-image:url(imgs/slide_img5.jpg)"></div>
+          <div class="swiper-slide" style="background-image:url(imgs/slide_img1.jpg)">
+        <a href="sub.html" style="display: block; height: 100%;"></a></div>
+          <div class="swiper-slide" style="background-image:url(imgs/slide_img2.jpg)">
+            <a href="sub.html" style="display: block; height: 100%;"></a></div>
+          <div class="swiper-slide" style="background-image:url(imgs/slide_img3.jpg)">
+            <a href="sub.html" style="display: block; height: 100%;"></a></div>
+          <div class="swiper-slide" style="background-image:url(imgs/slide_img4.jpg)">
+            <a href="sub.html" style="display: block; height: 100%;"></a></div>
+          <div class="swiper-slide" style="background-image:url(imgs/slide_img5.jpg)">
+            <a href="sub.html" style="display: block; height: 100%;"></a></div>
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination swiper-pagination-white"></div>
